@@ -21,8 +21,8 @@ SVG and chord diagrams. I recycled some of the svg commands.
 
 # Installation
 
-* First you need Python 3 (https://www.python.org, ) - Python 3.6 should work, because it's the development environment
-* And this modul uchord - simply copy the source
+* First you need Python 3 (https://www.python.org) - Python 3.6 should work, because it's the development environment
+* And this module uchord - simply copy the source
 
 Or try
 
@@ -58,7 +58,7 @@ import uchord
 uchord.write_chord('f.svg','F','2010')
 ```
 
-If you want to specify which finger should be used for which fret, use the paremeter *fingers*. For an empty string stands the underline.
+If you want to specify which finger should be used for which fret, use the parameter *fingers*. For an empty string stands the underline.
 
 
 ```python
@@ -67,7 +67,7 @@ uchord.write_chord('f.svg','F','2010',fingers='2_1_')
 
 <img src="pic/ff.svg" align="left"><br><br><br><br><br>
 
-For marking the root note or other texts under the chord you can use the parmeter *subtexts*
+For marking the root note or other texts under the chord you can use the parameter *subtexts*
 
 
 ```python
@@ -87,7 +87,7 @@ uchord.write_chord('dm7.svg','Dm7','7988',fingers='1423',starting_fret=6)
 
 ## Using Class Chord and Chords
 
-The modul *uchord* has the class *Chord* which reprents a specific chord.
+The module *uchord* has the class *Chord* which represents a specific chord.
 
 
 ```python
